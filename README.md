@@ -9,7 +9,7 @@ To run the code it is necessary to
 - own a subscription to Botometer (available at https://botometer.osome.iu.edu/),
 - setup an environment with all the required libraries (in this project Anaconda, available for free at https://www.anaconda.com/, has been used to manage the environment and run the Jupyterlab code),
 - setup a MongoDB installation with the following collections (Studio3t, available at https://studio3t.com/, has been used to manage the collections)
-  - a collection of all the tweets about the vaccines collected through the "Golden Hashtags"(\*) method (i.e., a complete collection),
+  - a collection of all the tweets about the vaccines collected through the "Golden Hashtags*" method (i.e., a complete collection),
   - a collection of the tweets classified by the no-vax classifier built within the Vaccinitaly project (i.e., a labeled collection).
 
 * See References at the bottom to better understand more about the project and the data collection phase.
