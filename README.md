@@ -63,7 +63,7 @@ It associate a topic to each tweet and help the user in defining the name for ea
 The submodule displays the results of the topic analysis through three representation
 - graphical, positioning the topics within a graph
 - textual, displaying the top N words associated with each topic
-- exemplify, extracting the top T tweets that best represent a topic
+- exemplifying, extracting the top T tweets that best represent a topic
 
 # References
 ## About the No-vax Labeling
