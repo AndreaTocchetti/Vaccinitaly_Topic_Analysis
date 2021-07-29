@@ -66,8 +66,8 @@ The submodule displays the results of the topic analysis through three represent
 - exemplify, extracting the top T tweets that best represent a topic
 
 # References
-## About the Labeling
+## About the No-vax Labeling
 M. Di Giovanni, L. Corti, S. Pavanetto, F. Pierri, A. Tocchetti, and M. Brambilla. “A Content-based Approach for the Analysis and Classification of Vaccine-related Stances on Twitter: the Italian Scenario”. doi:10.36190/2021.52. url: http://workshop-proceedings.icwsm.org/pdf/2021_52.pdf.
 
-## About the Project
+## About the VaccinItaly Project
 F. Pierri, A. Tocchetti, L. Corti, M. Di Giovanni, S. Pavanetto, M. Brambilla, and S. Ceri. “VaccinItaly: monitoring Italian conversations around vaccines on Twitter”. doi:10.36190/2021.11. arXiv:2101.03757. url: https://arxiv.org/pdf/2101.03757.pdf.
