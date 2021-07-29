@@ -7,7 +7,7 @@ The task performed by each of the modules is explained below.
 To run the code it is necessary to
 - own a Twitter Developer Account able to access Twitter API v2 (e.g., an Academic account, https://developer.twitter.com/en/apply-for-access for more info),
 - own a subscription to Botometer (available at https://botometer.osome.iu.edu/),
-- setup an environment with all the required libraries (in this project Anaconda has been used to manage the environment and run the Jupyterlab code),
+- setup an environment with all the required libraries (in this project Anaconda, available for free at https://www.anaconda.com/, has been used to manage the environment and run the Jupyterlab code),
 - setup a MongoDB installation with the following collections
   - a collection of all the tweets about the vaccines collected through the "Golden Hashtags" method (i.e., a complete collection),
   - a collection of the tweets classified by the no-vax classifier built within the Vaccinitaly project (i.e., a labeled collection).
