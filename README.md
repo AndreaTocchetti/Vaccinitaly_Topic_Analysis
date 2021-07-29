@@ -1,4 +1,4 @@
-# Vaccinitaly Topic Analysis
+# Vaccinitaly - Topic Analysis
 The code in the repository performs data collection, data filtering, data cleaning, and topic analysis on the last 100 tweets shared by users pre-classified as no-vax with the objective of detecting the most discussed topics within the no-vax community.
 The code is organized in modules that are all included in "Topic Analysis Pipeline.ipynb".
 The task performed by each of the modules is explained below.
@@ -6,13 +6,13 @@ The task performed by each of the modules is explained below.
 # Setup
 To run the code it is necessary to
 - own a Twitter Developer Account able to access Twitter API v2 (e.g., an Academic account),
-- own a subscription to Botometer available at https://botometer.osome.iu.edu/.
+- own a subscription to Botometer (available at https://botometer.osome.iu.edu/),
 - setup an environment with all the required libraries (in this project Anaconda has been used to manage the environment and run the Jupyterlab code),
 - setup a MongoDB installation with the following collections
   - a collection of all the tweets about the vaccines collected through the "Golden Hashtags" method (i.e., a complete collection),
-  - a collection of the tweets classified by the no-vax classifier built within the Vaccinitaly project (i.e., a labeled collection)
+  - a collection of the tweets classified by the no-vax classifier built within the Vaccinitaly project (i.e., a labeled collection).
 
-See References at the bottom to better understand the data collection phase.
+See References at the bottom to better understand more about the project and the data collection phase.
 
 ## Module 1 - Data Organization
 The first module has three different sub-modules.
@@ -67,6 +67,7 @@ The submodule displays the results of the topic analysis through three represent
 
 # References
 ## About the Labeling
-M. Di Giovanni, L. Corti, S. Pavanetto, F. Pierri, A. Tocchetti, and M. Brambilla. “A Content-based Approach for the Analysis and Classification of Vaccine-related Stances on Twitter: the Italian Scenario”. In: June 1, 2021. doi:10.36190/2021.52. url: http://workshop-proceedings.icwsm.org/pdf/2021_52.pdf.
+M. Di Giovanni, L. Corti, S. Pavanetto, F. Pierri, A. Tocchetti, and M. Brambilla. “A Content-based Approach for the Analysis and Classification of Vaccine-related Stances on Twitter: the Italian Scenario”. doi:10.36190/2021.52. url: http://workshop-proceedings.icwsm.org/pdf/2021_52.pdf.
+
 ## About the Project
-F. Pierri, A. Tocchetti, L. Corti, M. Di Giovanni, S. Pavanetto, M. Brambilla, and S. Ceri. “VaccinItaly: monitoring Italian conversations around vaccines on Twitter”. In: CoRRabs/2101.03757 (June 1, 2021). doi:10.36190/2021.11. arXiv:2101.03757. url: https://arxiv.org/pdf/2101.03757.pdf.
+F. Pierri, A. Tocchetti, L. Corti, M. Di Giovanni, S. Pavanetto, M. Brambilla, and S. Ceri. “VaccinItaly: monitoring Italian conversations around vaccines on Twitter”. doi:10.36190/2021.11. arXiv:2101.03757. url: https://arxiv.org/pdf/2101.03757.pdf.
