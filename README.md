@@ -12,7 +12,7 @@ To run the code it is necessary to
   - a collection of all the tweets about the vaccines collected through the "Golden Hashtags*" method (i.e., a complete collection),
   - a collection of the tweets labeled by the no-vax classifier built within the Vaccinitaly project (i.e., a labeled collection).
 
-\* See References to understand more about the project and the data collection phase.
+** \* ** See References to understand more about the project and the data collection phase.
 
 ## Module 1 - Data Organization
 The first module has three different sub-modules.
